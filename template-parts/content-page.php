@@ -9,10 +9,10 @@
 
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <section class="unlisted-share-container">
+    <section class="customtheme-share-container">
         <div class="container">
-            <div class="unlisted-share-content">
-                <h1 class="unlisted-share-heading"><?php echo get_the_title(); ?></h1>
+            <div class="customtheme-share-content">
+                <h1 class="customtheme-share-heading"><?php echo get_the_title(); ?></h1>
                 <?php the_content(); ?>
             </div>
             <button class="click-btn">Click Here</button>
